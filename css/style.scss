@@ -136,7 +136,8 @@ nav.navbar-default {
 .main {
 	.cover {
 		padding: 10px 20px 0 20px;
-		background-image: url(../img/bg1.jpg);
+		background: #fcfcfc;
+		// background-image: url(../img/bg1.jpg);
 		background-size: cover;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -146,6 +147,9 @@ nav.navbar-default {
 	    z-index: 0;
 	    min-height: 650px;
 	    overflow: hidden;
+		* {
+			color: #000 !important;
+		}
 		header {
 			padding: 130px 10px 160px 10px;
 			.btn-special {
@@ -464,9 +468,6 @@ footer {
 			}
 		}
 		.navbar-toggle {
-			.icon-bar {
-				background-color: $white;
-			}
 			border: none;
 			background: none;
 			&:focus,
